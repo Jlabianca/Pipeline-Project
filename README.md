@@ -14,6 +14,10 @@ automation.py: Automates the data pipeline to run at regular intervals.
 The data used in this project is sourced from the [Johns Hopkins University COVID-19 dataset](https://github.com/CSSEGISandData/COVID-19), which provides daily updates on COVID-19 cases worldwide. 
 The dataset includes detailed information on confirmed cases, deaths, and recoveries across different regions and countries.
 
+## Tableau 
+Here you can see the [Global COVID-19 Confirmed Cases](https://public.tableau.com/app/profile/joseph.labianca/viz/GeographicSpreadofCOVID-19ConfirmedCases/Dashboard1). This is done on Tableau
+a Data Visualization software to show you a map of which countries had the most Covid-19 Cases
+
 ## Break down of the files
  ``` bash
   public_data_pipeline/
