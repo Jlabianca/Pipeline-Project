@@ -12,3 +12,88 @@
 2024-06-15 11:32:41,938:INFO:Job started
 2024-06-15 11:32:42,214:INFO:Data extraction completed
 2024-06-15 11:32:42,218:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:33:42,396:INFO:Job started
+2024-06-15 11:33:42,584:INFO:Data extraction completed
+2024-06-15 11:33:42,584:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:34:42,764:INFO:Job started
+2024-06-15 11:34:42,968:INFO:Data extraction completed
+2024-06-15 11:34:42,968:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:35:43,152:INFO:Job started
+2024-06-15 11:35:43,378:INFO:Data extraction completed
+2024-06-15 11:35:43,378:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:36:43,565:INFO:Job started
+2024-06-15 11:36:43,780:INFO:Data extraction completed
+2024-06-15 11:36:43,780:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:37:43,952:INFO:Job started
+2024-06-15 11:37:44,249:INFO:Data extraction completed
+2024-06-15 11:37:44,250:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:38:44,428:INFO:Job started
+2024-06-15 11:38:44,657:INFO:Data extraction completed
+2024-06-15 11:38:44,657:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:39:44,829:INFO:Job started
+2024-06-15 11:39:45,064:INFO:Data extraction completed
+2024-06-15 11:39:45,064:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:40:45,262:INFO:Job started
+2024-06-15 11:40:45,471:INFO:Data extraction completed
+2024-06-15 11:40:45,471:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:41:45,632:INFO:Job started
+2024-06-15 11:41:45,826:INFO:Data extraction completed
+2024-06-15 11:41:45,826:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:42:45,991:INFO:Job started
+2024-06-15 11:42:46,201:INFO:Data extraction completed
+2024-06-15 11:42:46,201:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:43:46,437:INFO:Job started
+2024-06-15 11:43:46,658:INFO:Data extraction completed
+2024-06-15 11:43:46,659:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:44:46,855:INFO:Job started
+2024-06-15 11:44:47,102:INFO:Data extraction completed
+2024-06-15 11:44:47,102:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:45:47,519:INFO:Job started
+2024-06-15 11:45:47,706:INFO:Data extraction completed
+2024-06-15 11:45:47,707:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:46:47,926:INFO:Job started
+2024-06-15 11:46:48,237:INFO:Data extraction completed
+2024-06-15 11:46:48,238:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:47:48,493:INFO:Job started
+2024-06-15 11:47:48,768:INFO:Data extraction completed
+2024-06-15 11:47:48,769:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:48:48,954:INFO:Job started
+2024-06-15 11:48:49,175:INFO:Data extraction completed
+2024-06-15 11:48:49,175:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:49:49,340:INFO:Job started
+2024-06-15 11:49:49,610:INFO:Data extraction completed
+2024-06-15 11:49:49,612:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:50:49,773:INFO:Job started
+2024-06-15 11:50:50,100:INFO:Data extraction completed
+2024-06-15 11:50:50,100:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:51:50,275:INFO:Job started
+2024-06-15 11:51:50,525:INFO:Data extraction completed
+2024-06-15 11:51:50,526:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:52:50,826:INFO:Job started
+2024-06-15 11:52:51,145:INFO:Data extraction completed
+2024-06-15 11:52:51,146:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:53:51,316:INFO:Job started
+2024-06-15 11:53:51,534:INFO:Data extraction completed
+2024-06-15 11:53:51,534:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:54:51,711:INFO:Job started
+2024-06-15 11:54:51,992:INFO:Data extraction completed
+2024-06-15 11:54:51,993:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 12:12:27,461:INFO:Scheduler started
+2024-06-15 12:13:27,661:INFO:Job started
+2024-06-15 12:13:27,996:INFO:Data extraction completed
+2024-06-15 12:13:28,136:INFO:Extracted data:   Province/State Country/Region       Lat       Long  1/22/20  1/23/20  1/24/20  ...  3/3/23  3/4/23  3/5/23  3/6/23  3/7/23  3/8/23  3/9/23
+0            NaN    Afghanistan  33.93911  67.709953        0        0        0  ...  209362  209369  209390  209406  209436  209451  209451
+1            NaN        Albania  41.15330  20.168300        0        0        0  ...  334427  334427  334427  334427  334427  334443  334457
+2            NaN        Algeria  28.03390   1.659600        0        0        0  ...  271469  271469  271477  271477  271490  271494  271496
+3            NaN        Andorra  42.50630   1.521800        0        0        0  ...   47875   47875   47875   47875   47875   47890   47890
+4            NaN         Angola -11.20270  17.873900        0        0        0  ...  105277  105277  105277  105277  105277  105288  105288
+
+[5 rows x 1147 columns]
+2024-06-15 12:13:28,502:INFO:Data cleaning completed
+2024-06-15 12:13:28,510:INFO:Cleaned data:         Lat Country/Region       Long Province/State       Date  Confirmed
+0  33.93911    Afghanistan  67.709953            NaN 2020-01-22          0
+1  41.15330        Albania  20.168300            NaN 2020-01-22          0
+2  28.03390        Algeria   1.659600            NaN 2020-01-22          0
+3  42.50630        Andorra   1.521800            NaN 2020-01-22          0
+4 -11.20270         Angola  17.873900            NaN 2020-01-22          0
+2024-06-15 12:13:30,228:INFO:Data storage completed
