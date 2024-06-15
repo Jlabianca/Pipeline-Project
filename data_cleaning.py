@@ -4,28 +4,24 @@ def clean_data(file_path):
     df = pd.read_csv(file_path)
     print(df.columns)  # Print the column names to debug
 
-    # Assuming we want to keep 'country.value', 'date', and 'value' columns
-    df = df[['country.value', 'date', 'value']]
-    
-    # Rename columns to be more intuitive
-    df.rename(columns={
-        'country.value': 'Country',
-        'date': 'Date',
-        'value': 'Confirmed'
-    }, inplace=True)
+    # Check for required columns
+    required_columns = {'Province/State', 'Country/Region', 'Lat', 'Long'}
+    if not required_columns.issubset(df.columns):
+        print("Warning: Column names do not match expected names.")
+        return pd.DataFrame()  # Return an empty DataFrame or handle accordingly
 
-    # Convert the 'Date' column to datetime
+    df = df.melt(id_vars=["Province/State", "Country/Region", "Lat", "Long"], 
+                 var_name="Date", 
+                 value_name="Confirmed")
     df['Date'] = pd.to_datetime(df['Date'])
-    
-    # Drop rows with missing 'Confirmed' values
     df.dropna(subset=['Confirmed'], inplace=True)
-
     return df
 
 if __name__ == "__main__":
-    cleaned_df = clean_data('raw_data.csv')
+    raw_df = pd.read_csv('raw_covid_data.csv')
+    cleaned_df = clean_data('raw_covid_data.csv')
     if not cleaned_df.empty:
-        cleaned_df.to_csv('cleaned_data.csv', index=False)
+        cleaned_df.to_csv('cleaned_covid_data.csv', index=False)
         print(cleaned_df.head())
     else:
         print("Data cleaning failed due to column name mismatch.")

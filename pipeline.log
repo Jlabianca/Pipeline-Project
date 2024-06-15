@@ -1,0 +1,14 @@
+2024-06-15 11:18:38,764:INFO:Scheduler started
+2024-06-15 11:19:38,937:INFO:Job started
+2024-06-15 11:19:39,137:INFO:Data extraction completed
+2024-06-15 11:19:39,138:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:20:39,304:INFO:Job started
+2024-06-15 11:20:39,492:INFO:Data extraction completed
+2024-06-15 11:20:39,493:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:21:39,658:INFO:Job started
+2024-06-15 11:21:39,786:INFO:Data extraction completed
+2024-06-15 11:21:39,786:ERROR:Error occurred: argument of type 'method' is not iterable
+2024-06-15 11:31:41,738:INFO:Scheduler started
+2024-06-15 11:32:41,938:INFO:Job started
+2024-06-15 11:32:42,214:INFO:Data extraction completed
+2024-06-15 11:32:42,218:ERROR:Error occurred: argument of type 'method' is not iterable

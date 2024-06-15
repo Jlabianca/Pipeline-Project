@@ -2,14 +2,21 @@ import requests
 import pandas as pd
 
 def extract_data():
-    url = 'http://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&per_page=1000'
-    response = requests.get(url)
-    data = response.json()
+    url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv'
     
-    # Extract relevant data
-    df = pd.json_normalize(data[1])
+    # Use requests to download the CSV file content
+    response = requests.get(url)
+    response.raise_for_status()  # Ensure we notice bad responses
+    
+    # Save the content to a local file
+    with open('raw_covid_data.csv', 'wb') as file:
+        file.write(response.content)
+    
+    # Read the CSV file into a DataFrame
+    df = pd.read_csv('raw_covid_data.csv')
     return df
 
-data_df = extract_data()
-data_df.to_csv('raw_data.csv', index=False)
-print(data_df.head())
+if __name__ == "__main__":
+    data_df = extract_data()
+    data_df.to_csv('raw_covid_data.csv', index=False)
+    print(data_df.head())
